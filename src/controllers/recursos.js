@@ -4,15 +4,15 @@ module.exports = {
       return res.send('Respota da raiz');
     },
     async r2(req,res){
-        return res.send('Resposta da 2 raiz');
+        return res.send('Maça');
       },
       async r3(req,res){
-        return res.send('Resposta da 3 raiz');
+        return res.send('Banana');
       },
       async r4(req,res){
-        return res.send('Resposta da 4 raiz');
+        return res.send('Melancia');
       },
       async r5(req,res){
-        return res.send('Resposta da 5 raiz');
+        return res.send('Uva');
       },
 };
